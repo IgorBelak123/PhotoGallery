@@ -1,0 +1,22 @@
+.messages-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.message-row {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+}
+
+.message-item {
+  margin-bottom: 20px;
+}
+
+.message-reply {
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-left: 10px;
+  border-left: 2px solid #ccc;
+}
